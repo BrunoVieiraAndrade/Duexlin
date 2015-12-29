@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Duexlin</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configurações</string>
     <string name="facebook_app_id">501613060012423</string>
-    <string name="title_activity_success">SuccessActivity</string>
+    <string name="title_activity_success">Duelar</string>
+    <string name="facebook_button_text">Fazer login com Facebook</string>
+    <string name="title_activity_friends_list">Lista de Amigos</string>
 </resources>

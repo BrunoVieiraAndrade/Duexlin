@@ -9,22 +9,49 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.bruno.duexlin.SuccessActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bem vindo ao"
-        android:id="@+id/textView"
-        android:textSize="@dimen/abc_text_size_large_material"
-        android:layout_marginTop="240dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:src="@drawable/duexlin_title"
-        android:layout_marginTop="34dp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:text="text"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/duelarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duelar"
+        android:layout_below="@+id/profilePic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:id="@+id/logoutbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>

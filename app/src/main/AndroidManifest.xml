@@ -37,6 +37,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.bruno.duexlin.MainActivity" />
         </activity>
+        <activity
+            android:name=".FriendsListActivity"
+            android:label="@string/title_activity_friends_list"
+            android:parentActivityName=".SuccessActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bruno.duexlin.SuccessActivity" />
+        </activity>
     </application>
 
 </manifest>
